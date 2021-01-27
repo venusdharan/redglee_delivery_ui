@@ -69,12 +69,12 @@ export default {
     //'nuxt-socket-io',
   ],
 
-  socket_io_url:"http://192.168.0.104:4600/socket.io",
+  socket_io_url:"https://172.105.58.4/socket.io",
   io: {
     // module options
     sockets: [{
       name: 'main',
-      url: 'http://192.168.0.104:4600',
+      url: 'https://172.105.58.4',
       
     }]
   },
@@ -113,7 +113,7 @@ toast: {
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {
-    baseURL: 'http://192.168.0.104:4600',
+    baseURL: 'https://172.105.58.4',
 
   },
 
